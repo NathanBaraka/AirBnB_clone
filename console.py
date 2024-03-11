@@ -7,6 +7,7 @@ import re
 import shlex
 import ast
 from models import storage
+from models.base_model import BaseModel
 
 def split_curly_braces(e_arg):
     """
